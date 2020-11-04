@@ -55,7 +55,7 @@ var VerifyEmailPageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"h-screen w-screen flex items-center justify-center px-2 relative\">\n\n\t<div class=\"w-full sm:w-3/4 lg:w-1/2 xl:w-1/3 bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col\">\n\n\t\t<h1 class=\"text-3xl text-center mb-4 text-gray-700\">\n\t\t\tAccount created!\n\t\t</h1>\n\n\t\t<p class=\"text-gray-600 mb-4\">\n\t\t\tBefore you login, please verify your email address by clicking on the link in email we just sent you.\n\t\t</p>\n\n\t\t<button class=\"bg-brand-500 hover:bg-brand-700 text-white font-bold py-2 px-4 rounded mt-4\"\n\t\t\t\t[routerLink]=\"['/external/login']\" data-cy=\"continueButton\">\n\t\t\tContinue\n\t\t</button>\n\n\t</div>\n\n</div>\n"
+module.exports = "<div class=\"h-screen w-screen flex items-center font-family-karla justify-center px-2 relative\">\n\n\t<div class=\"w-full sm:w-3/4 lg:w-1/2 xl:w-1/3 bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col\">\n\n\t\t<h1 class=\"text-3xl text-center mb-4 text-blue-700\">\n\t\t\t¡Cuenta creada exitosamente!\n\t\t</h1>\n\n\t\t<p class=\"text-gray-600 mb-4\">\n\t\t\tPor favor antes de iniciar sesión, revise su cuenta de correo para activar su nueva cuenta en MiCarpeta.\n\t\t</p>\n\n\t\t<button class=\"bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4\"\n\t\t\t\t[routerLink]=\"['/external/login']\" data-cy=\"continueButton\">\n\t\t\tAceptar\n\t\t</button>\n\n\t</div>\n\n</div>\n"
 
 /***/ }),
 

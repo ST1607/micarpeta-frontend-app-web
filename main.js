@@ -460,8 +460,8 @@ var handlers = {
             if (!user) {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["throwError"])(new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpErrorResponse"]({
                     error: {
-                        header: 'Error',
-                        message: 'Invalid email address or password.'
+                        header: '¡Lo sentimos!',
+                        message: 'Correo electrónico o constraseña inválida'
                     },
                     status: 400
                 }));
@@ -490,8 +490,8 @@ var handlers = {
             if (existing) {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["throwError"])(new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpErrorResponse"]({
                     error: {
-                        header: 'Error',
-                        message: 'A user already exists with this email address!'
+                        header: '¡Lo sentimos!',
+                        message: 'Ya existe un usuario registrado con esa dirección de correo electrónico'
                     },
                     status: 400
                 }));
